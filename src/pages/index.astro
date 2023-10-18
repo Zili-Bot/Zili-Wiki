@@ -1,16 +1,10 @@
 ---
-
+import PageLayout from '../layouts/layout.astro'
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<PageLayout title="Homepage">
+	<div id="title_block" class="text-white py-10">
+		<h1 class="text-center text-7xl pb-10"> Zili Discord Bot </h1>
+		<p class="text-center"> The ultimate all-purpose Discord bot! </p>
+	</div>
+</PageLayout>
